@@ -109,7 +109,7 @@ const Feed: FC<Props> = ({ profile, type }) => {
           message={
             <div>
               <span className="mr-1 font-bold">@{profile?.handle}</span>
-              <span>doesn’t {type.toLowerCase()}ed yet!</span>
+              <span>hasn't posted yet </span>
             </div>
           }
           icon={<CollectionIcon className="w-8 h-8 text-brand" />}
